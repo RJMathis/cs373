@@ -98,12 +98,12 @@ in Python
         dict
 
 Questions
-    What Java   operator compares identity?
-    What Python operator compares identity?
-    What Java   operator compares value?
-    What Python operator compares value?
-    How do you specify a one-arg tuple?
-    What does isinstance() do?
-    What does issubclass() do?
-    What constraints does set have, compared to list?
+    What Java   operator compares identity? ==
+    What Python operator compares identity? is
+    What Java   operator compares value? .equals()
+    What Python operator compares value? ==
+    How do you specify a one-arg tuple? (5,)
+    What does isinstance() do? compares an object to a class and verifies whether it is a member of that class
+    What does issubclass() do? compares typeA with typeB to determine if A is a class derived from B
+    What constraints does set have, compared to list? no repeated elements
 """

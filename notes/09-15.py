@@ -88,15 +88,24 @@ j = ++i; # pre-increment
 j = i++; # post-increment
 
 # Python does not have ++
+# Containers are any object that holds an arbitrary number of other objects
 
 """
 Questions
-    How are list and deque implemented?
-    What are the costs of list and deque?
+    How are list and deque implemented? list is frontloaded deque is middle loaded
+    What are the costs of list and deque? 
+    	list: insert front o(n), insert back o(1) amortized
+    	deque: "      "  o(1) amortized, back o(1) amortized
     Of the containers list and deque, which can back a stack? Why or why not?
+    	list as long as you use the back bc it will have more room at the back when
+    	adding to the stack
     Of the containers list and deque, which can back a queue? Why or why not?
+    	deque because as a first in first out, we push onto the front and pop off the back
+    	so we do not want to push onto the front of a frontloaded datastructure
     What is a lambda?
+    	lambda is a keyword used to define anon functions
     What is a higher-order function?
+    	a function that takes in a function as a parameter
     What is an l-value, r-value?
     In terms of l-values and r-values, what does +  take and produce?
     In terms of l-values and r-values, what does ++ take and produce?

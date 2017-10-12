@@ -56,8 +56,13 @@ what's mcl(500, 2500)
 
 Questions:
     What two optimizations did we cover in the quiz?
+    	halfing the range and bit shifting vs dividing
     What optimization did we cover in lecture?
+    	caching
     What is a lazy cache, eager cache, and meta cache?
+    	lazy makes the cache on demand ; eager makes the cache during the run;
+    	meta makes the cache before a run
     What do each of the caches cache?
+    	
     How big should each cache be?
 """

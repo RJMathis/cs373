@@ -53,6 +53,9 @@ print(j) # 3
 Questions
     What's the benefit of function wrappers of operators?
     What's the difference between is vs ==?
+    	is compares identity while == compares value
     How does List += differ from Tuple +=?
+    	list += takes any iterable while tuple += takes only another tuple
     How does List +  differ from Tuple +?
+    	list + takes only a list while tuple + takes only a tuple
 """

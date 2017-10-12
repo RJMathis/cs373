@@ -1,0 +1,150 @@
+You are responsible for:
+
+the papers
+the XP and UML books
+the class examples and exercises
+the class notes
+the class quizzes:
+	Cycle of life: build, choose, define, estimate
+	College Advice:
+		Learn how to write before graduating.
+		Learn C before graduating.
+		Learn microeconomics before graduating.
+		Don’t blow off non-CS classes just because they’re boring.
+		Take programming-intensive courses.
+		Stop worrying about all the jobs going to India.
+		No matter what you do, get a good summer internship.
+	Collegate Happiness:
+		Meet the faculty
+		Take a mix of courses.
+		 Study in groups.
+		 Write, write, write
+		 Speak another language
+		 Consider time
+		 Hold the drum. i/e play
+	Little Bug Big Bang: 
+		
+	???? quiz 16 function parameters and lambda ????
+	Open Closed Principle: open for extension, closed for modification
+the class projects
+	Collatz:
+		optimization max_cl(b,e) m = (e/2 ) + 1 iff b< m max_cl(b,e) = max_cl(m,e)
+		
+
+
+You should be familiar with the following.
+Python concepts
+assert
+	not good for unit test; not good for user errors
+	good for pre/post cnditions; good for programmer errors
+classes
+closures
+concatenation
+dict comprehensions
+except
+generators
+issubclass
+iterables
+iteration
+iterators
+lambdas
+list comprehensions
+ y = [] assert(islist(y) == true)
+nested classes
+nested functions
+pass
+raise
+recursion
+replication
+set comprehensions
+StopIteration
+try
+Python types
+bool
+complex
+float
+int
+type
+Python operators
+-
+-=
+()
+[]
+**
+**=
+*
+*=
+//
+/
+/=
+&
+&=
+>>
+>>=
+>
+>=
+<<
+<<=
+<
+<=
+%
+%=
+^
+^=
++
++=
+	for list:
+		a += [list]  or a += (list) // concatonates original a with list
+		a = a + [list] // creates a new list
+	for tuples += and a + both create new tuples
+|
+|=
+~
+and
+not
+or
+Python tokens
+"*" in a function call
+"*" in a parameter list
+"**" in a function call
+"**" in a parameter list
+"=" in a function call
+"=" in a parameter list
+Python functions
+add
+floordiv
+mul
+print
+sqrt
+sub
+truediv
+Python methods
+__getitem__
+__init__
+__iter__
+__len__
+__next__
+Python iterators
+iter
+next
+Python algorithms
+map
+reduce
+	reduce(function, iterator, seed)
+sum
+zip
+Python containers
+dict
+frozenset
+list
+range
+set
+str
+tuple
+Python generators
+filter
+map
+generator comprehension
+yield
+Projects
+Collatz

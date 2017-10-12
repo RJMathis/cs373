@@ -101,7 +101,7 @@ def g (...) :
 three avenues of communication
     1. returns
     2. globals
-    3. parameters
+    3. parameters - with a list, pass in ref to list
 
 assertions bad
     because they'll halt the code
@@ -148,8 +148,11 @@ Questions:
     What were the two bugs in IsPrime1?
     What was the inefficiency in IsPrime1?
     In using a parameter for error handling, why was a list passed?
+    	bc if we pass a variable it gets copied
     Could an int have been passed?
+    	no, it would not have been reflected in the calling function
     Could a tuple have been passed?
+    	no, tuples are immutable and a new tuple would have been created
     What's the diffence between code in an else clause and code after the try block?
     What's the diffence between code in a finally clause and code after the try block?
 """

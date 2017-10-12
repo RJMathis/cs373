@@ -32,7 +32,11 @@ Questions:
     What's the least number of lines of acceptance tests you should have?
     What's the least number of unit tests you should have?
     What's the name of the auto-formating tool?
+    	pep8
     What's the name of the auto-documentaiton tool?
+    	pylint
     What kind of object acts like, both, a string and an IO object?
+    	StringIO
     What is a REPL?
+    	read eval print loop
 """

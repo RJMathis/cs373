@@ -32,5 +32,6 @@ Questions:
     When an assertion fails, what information does it provide?
     What turns off all assertions?
     Why are assertions bad for testing?
+    	
     Why are assertions bad for user errors?
 """
